@@ -1,0 +1,109 @@
+{
+  "Header": {
+    "title": "Vizualizujte svoj projekat",
+    "paragraph": "Vizualizacija arhitektonskih projekata u VR-u i na Windows platformi."
+  },
+  "About": {
+    "paragraph": "Naša kompanija teži revolucioniranju vizualizacije arhitektonskih projekata kroz visoki nivo detalja i inovativne pristupe. Posvećeni smo stvaranju autentičnih iskustava koja transformišu način na koji se projektuju i doživljavaju arhitektonska dela.",
+    "Why": ["Inovativni pristupi", "Korišćenje savremenih tehnologija"],
+    "Why2": ["Pažnja na detalje", "Vizuelizacija visokog kvaliteta"]
+  },
+  "Gallery": [
+    {
+      "title": "Projekt apartmana",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Projekt apartmana",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Projekt apartmana",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Projekt apartmana",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Projekt apartmana",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Projekt apartmana",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-wordpress",
+      "name": "Vizuelizacija projekta na VR-u",
+      "text": "Naša usluga za vizualizaciju projekta na VR-u omogućava vam da doživite vaš budući prostor u potpunoj virtualnoj stvarnosti. Sa realističnim detaljima i interaktivnim mogućnostima, možete istražiti i iskusiti svaki ugao i aspekt vašeg projekta pre nego što započne njegova izgradnja."
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Vizuelizacija projekta na računaru",
+      "text": "Naša usluga za vizualizaciju projekta na Windows platformi omogućava vam da istražite vaš budući prostor putem računara. Prednost ovog pristupa je što možemo da vam pošaljemo export projekta, omogućavajući vam da delite i pregledate svoj projekat sa drugima na jednostavan način."
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "Hiper-realistični snimci i slike",
+      "text": "Naša usluga za hiper-realistične slike i video klipove omogućava vam da doživite vaš projekat sa neverovatnom detaljnošću i realizmom. Kroz napredne tehnike vizualizacije, stvaramo slike i klipove koji izgledaju kao da su iz stvarnog sveta, pružajući vam potpuno uverljiv doživljaj vašeg budućeg prostora."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Kompanija Kapaprojekt pruža vrhunski kvalitet u projektovanju i vođenju investicija za različite građevinske objekte. Sa bogatim iskustvom i prisustvom na domaćem i internacionalnom tržištu, Kapaprojekt je ostvario značajne rezultate, uključujući projekte za poznate kompanije i međunarodne organizacije, kako u Srbiji tako i u inostranstvu.\"",
+      "name": "KapaProjekt"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "Uroš Rakić",
+      "job": "Direktor"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Petar Mitić",
+      "job": "Direktor"
+    }
+  ],
+  "Contact": {
+    "address": "18000 Niš",
+    "phone": "+381 62 222 333",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-glasses",
+      "title": "Vizualizacija prostora u VR-u",
+      "text": "Iskusite prostor na potpuno novi način kroz našu VR platformu. Dubina i detalji prostora omogućavaju vam da steknete realističan osećaj dimenzija i ambijenta."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Menjanje elemenata u enterijeru",
+      "text": "Prilagodite prostor prema svojim potrebama i preferencijama menjajući raspored elemenata u enterijeru. Promenite nameštaj, dodajte ili uklonite detalje kako biste stvorili idealan ambijent."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Menjanje vremena",
+      "text": "Upoznajte svoj projekat u svim mogućim scenarijima promenom vremenskih uslova. Od sunčanih dana do kišnih noći, naša platforma vam omogućava da istražite kako vaš prostor izgleda u različitim atmosferskim prilikama."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Menjanje materijalizacije",
+      "text": "Sa našom platformom lako možete eksperimentisati sa različitim materijalima. Promenite teksture, boje i finiš kako biste dobili uvid u različite estetske opcije i efekte."
+    }
+  ]
+}
