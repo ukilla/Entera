@@ -42,19 +42,14 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
+      "icon": "fa fa-vr-cardboard",
       "name": "Vizuelizacija projekta na VR-u",
       "text": "Naša usluga za vizualizaciju projekta na VR-u omogućava vam da doživite vaš budući prostor u potpunoj virtualnoj stvarnosti. Sa realističnim detaljima i interaktivnim mogućnostima, možete istražiti i iskusiti svaki ugao i aspekt vašeg projekta pre nego što započne njegova izgradnja."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
+      "icon": "fa fa-desktop",
       "name": "Vizuelizacija projekta na računaru",
       "text": "Naša usluga za vizualizaciju projekta na Windows platformi omogućava vam da istražite vaš budući prostor putem računara. Prednost ovog pristupa je što možemo da vam pošaljemo export projekta, omogućavajući vam da delite i pregledate svoj projekat sa drugima na jednostavan način."
-    },
-    {
-      "icon": "fa fa-cloud-download",
-      "name": "Hiper-realistični snimci i slike",
-      "text": "Naša usluga za hiper-realistične slike i video klipove omogućava vam da doživite vaš projekat sa neverovatnom detaljnošću i realizmom. Kroz napredne tehnike vizualizacije, stvaramo slike i klipove koji izgledaju kao da su iz stvarnog sveta, pružajući vam potpuno uverljiv doživljaj vašeg budućeg prostora."
     }
   ],
   "Testimonials": [
@@ -79,31 +74,31 @@
   "Contact": {
     "address": "18000 Niš",
     "phone": "+381 62 222 333",
-    "email": "info@company.com",
+    "email": "enteranewvision@gmail.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
   "Features": [
     {
-      "icon": "fa fa-glasses",
-      "title": "Vizualizacija prostora u VR-u",
-      "text": "Iskusite prostor na potpuno novi način kroz našu VR platformu. Dubina i detalji prostora omogućavaju vam da steknete realističan osećaj dimenzija i ambijenta."
-    },
-    {
-      "icon": "fa fa-bullhorn",
+      "icon": "fa fa-couch",
       "title": "Menjanje elemenata u enterijeru",
-      "text": "Prilagodite prostor prema svojim potrebama i preferencijama menjajući raspored elemenata u enterijeru. Promenite nameštaj, dodajte ili uklonite detalje kako biste stvorili idealan ambijent."
+      "text": "Prilagodite prostor prema svojim potrebama i preferencijama menjajući elemente u enterijeru. Promenite nameštaj, dodajte ili uklonite detalje kako biste stvorili idealan ambijent."
     },
     {
-      "icon": "fa fa-group",
+      "icon": "fa fa-clock",
       "title": "Menjanje vremena",
-      "text": "Upoznajte svoj projekat u svim mogućim scenarijima promenom vremenskih uslova. Od sunčanih dana do kišnih noći, naša platforma vam omogućava da istražite kako vaš prostor izgleda u različitim atmosferskim prilikama."
+      "text": "Upoznajte svoj projekat u svim dobima dana, sa realnim kretanjem sunca. Izaberite fiksno vreme dana ili doživite ciklus dana i noći kako biste bolje prilagodili osveljetljenost u vašim prostorijama."
     },
     {
       "icon": "fa fa-magic",
       "title": "Menjanje materijalizacije",
       "text": "Sa našom platformom lako možete eksperimentisati sa različitim materijalima. Promenite teksture, boje i finiš kako biste dobili uvid u različite estetske opcije i efekte."
+    },
+    {
+      "icon": "hidden",
+      "title": "",
+      "text": ""
     }
   ]
 }

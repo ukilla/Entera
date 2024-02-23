@@ -15,25 +15,19 @@ export const Contact = (props) => {
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
   const clearState = () => setState({ ...initialState });
-  
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, email, message);
-    
-    {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
-    emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
-      .then(
-        (result) => {
-          console.log(result.text);
-          clearState();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    emailjs.send(
+      "service_tlbtc8c",
+      "template_e8opdt3",
+      {
+        from_name: `${email}`,
+        message: `${message}`,
+      },
+      "dXRIGOfrN6QlE7zOA"
+    );
   };
   return (
     <div>
@@ -44,7 +38,8 @@ export const Contact = (props) => {
               <div className="section-title">
                 <h2>Kontaktirajte nas</h2>
                 <p>
-                Molimo popunite formular ispod kako biste nam poslali e-mail, i mi ćemo vam odgovoriti što je pre moguće.
+                  Molimo popunite formular ispod kako biste nam poslali e-mail,
+                  i mi ćemo vam odgovoriti što je pre moguće.
                 </p>
               </div>
               <form name="sentMessage" validate onSubmit={handleSubmit}>
@@ -56,7 +51,7 @@ export const Contact = (props) => {
                         id="name"
                         name="name"
                         className="form-control"
-                        placeholder="Name"
+                        placeholder="Ime"
                         required
                         onChange={handleChange}
                       />
@@ -70,7 +65,7 @@ export const Contact = (props) => {
                         id="email"
                         name="email"
                         className="form-control"
-                        placeholder="Email"
+                        placeholder="vasmejl@mail.com"
                         required
                         onChange={handleChange}
                       />
@@ -84,7 +79,7 @@ export const Contact = (props) => {
                     id="message"
                     className="form-control"
                     rows="4"
-                    placeholder="Message"
+                    placeholder="Sadržaj vaše poruke"
                     required
                     onChange={handleChange}
                   ></textarea>
@@ -151,9 +146,7 @@ export const Contact = (props) => {
       </div>
       <div id="footer">
         <div className="container text-center">
-          <p>
-            &copy; 2024 Eterna
-          </p>
+          <p>&copy; 2024 Eterna</p>
         </div>
       </div>
     </div>
