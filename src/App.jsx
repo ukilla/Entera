@@ -20,7 +20,7 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 
 const App = () => {
   const [landingPageData, setLandingPageData] = useState({});
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     setLandingPageData(JsonData);
@@ -32,7 +32,7 @@ const App = () => {
 
   return (
     <div>
-      {isLoading ?( <LoadingPage />):(<div><Navigation />
+      {isLoading ?( <div><LoadingPage /><Header data={landingPageData.Header} onVideoLoad={handleVideoLoad} /></div>):(<div><Navigation />
       <Header data={landingPageData.Header} onVideoLoad={handleVideoLoad} />
       <div style={{ paddingTop: "100px" }}>
         <Features data={landingPageData.Features} />
