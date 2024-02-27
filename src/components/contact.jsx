@@ -146,7 +146,7 @@ export const Contact = (props) => {
       </div>
       <div id="footer">
         <div className="container text-center">
-          <p>&copy; 2024 Eterna</p>
+          <p>&copy; 2024 Entera</p>
         </div>
       </div>
     </div>

@@ -104,7 +104,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #1b6c87 0%, #1b6c87 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -152,7 +152,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #1b6c87 0%, #1b6c87 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -166,8 +166,8 @@ hr {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background-color: #1b6c87;
+  /*background-image: linear-gradient(to right, #1b6c87 0%, #072028 100%);*/
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -176,6 +176,7 @@ hr {
   border-radius: 25px;
   transition: all 0.5s linear;
   border: 0;
+  margin-bottom: 40px;
 }
 .btn-custom:hover,
 .btn-custom:focus,
@@ -184,7 +185,7 @@ hr {
 .btn-custom.active {
   color: #fff;
   background-image: none;
-  background-color: #6372ff;
+  background-color: #072028;
 }
 .btn:active,
 .btn.active {
@@ -249,20 +250,21 @@ a:focus,
 }
 .intro p {
   color: #fff;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 300;
   line-height: 30px;
   margin: 0 auto;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 header .intro-text {
   padding-top: 400px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   text-align: center;
 }
 /* Features Section */
 #features {
   padding-top: 220px;
+  padding-bottom: 25px;
   background: #f6f6f6;
 }
 #features i.fa {
@@ -274,7 +276,7 @@ header .intro-text {
   height: 100px;
   padding: 30px 0;
   border-radius: 50%;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #1b6c87 0%, #1b6c87 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 /* About Section */
@@ -293,7 +295,7 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #1b6c87 0%, #1b6c87 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -327,19 +329,19 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  color: #fff;
+  background: linear-gradient(to right, #f6f6f6 0%, #f6f6f6 100%);
+  color: #f6f6f6;
 }
 #services .service-desc {
   margin: 10px 10px 20px;
 }
 #services h2 {
-  color: #fff;
+  color: #131313;
 }
 #services .section-title h2::after {
   position: absolute;
   content: "";
-  background: rgba(255, 255, 255, 0.3);
+  background: #1b6c87;
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -356,18 +358,18 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #1b6c87 0%, #1b6c87 100%);
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 #services h3 {
-  font-weight: 500;
+  font-weight: 600;
   padding: 5px 0;
-  color: #fff;
+  color: #131313;
 }
 #services p {
-  color: rgba(255, 255, 255, 0.75);
+  color: #3d3d3d;
 }
 #services .service-desc {
   margin-bottom: 40px;
@@ -392,8 +394,8 @@ header .intro-text {
   color: #fff;
   background: linear-gradient(
     to right,
-    rgba(99, 114, 255, 0.8) 0%,
-    rgba(92, 169, 251, 0.8) 100%
+    rgba(180, 212, 255, 0.8) 0%,
+    rgba(180, 212, 255, 0.8) 100%
   );
   padding: 30% 0 0;
   height: 100%;
@@ -482,7 +484,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #1b6c87 0%, #1b6c87 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -626,6 +628,11 @@ label {
   opacity: 0;
 }
 
+.pop-up-smaller {
+  animation: popUpAnimation 0.5s ease forwards;
+  opacity: 0;
+}
+
 @keyframes popUpAnimation {
   0% {
     transform: scale(0.5);
@@ -650,3 +657,18 @@ label {
     margin: 50px 0;
   }
 }
+
+
+.breathing-image {
+  animation: breathe 0.5s infinite alternate; /* Adjust the duration and other animation properties as needed */
+}
+
+@keyframes breathe {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+

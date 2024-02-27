@@ -11,6 +11,7 @@ import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
+import { LoadingPage } from "./components/LoadingPage";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -19,14 +20,20 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 
 const App = () => {
   const [landingPageData, setLandingPageData] = useState({});
+  const [isLoading, setIsLoading] = useState(false);
+
   useEffect(() => {
     setLandingPageData(JsonData);
   }, []);
 
+  const handleVideoLoad = () => {
+    setIsLoading(false);
+  };
+
   return (
     <div>
-      <Navigation />
-      <Header data={landingPageData.Header} />
+      {isLoading ?( <LoadingPage />):(<div><Navigation />
+      <Header data={landingPageData.Header} onVideoLoad={handleVideoLoad} />
       <div style={{ paddingTop: "100px" }}>
         <Features data={landingPageData.Features} />
       </div>
@@ -35,7 +42,8 @@ const App = () => {
       <Gallery data={landingPageData.Gallery} />
       {/* <Testimonials data={landingPageData.Testimonials} />
       <Team data={landingPageData.Team} /> */}
-      <Contact data={landingPageData.Contact} />
+      <Contact data={landingPageData.Contact} /></div>)}
+ 
     </div>
   );
 };
