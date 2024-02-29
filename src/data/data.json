@@ -44,12 +44,16 @@
     {
       "icon": "fa fa-vr-cardboard",
       "name": "Vizuelizacija projekta na VR-u",
-      "text": "Naša usluga za vizualizaciju projekta na VR-u omogućava vam da doživite vaš budući prostor u potpunoj virtualnoj stvarnosti. Sa realističnim detaljima i interaktivnim mogućnostima, možete istražiti i iskusiti svaki ugao i aspekt vašeg projekta pre nego što započne njegova izgradnja."
+      "text": "Naša usluga za vizualizaciju projekta na VR-u omogućava vam da doživite vaš budući prostor u potpunoj virtualnoj stvarnosti. Sa realističnim detaljima i interaktivnim mogućnostima, možete istražiti i iskusiti svaki ugao i aspekt vašeg projekta pre nego što započne njegova izgradnja.",
+      "Why": ["Inovativni pristupi", "Korišćenje savremenih tehnologija"],
+      "Why2": ["Inovativni pristupi", "Korišćenje savremenih tehnologija"]
     },
     {
       "icon": "fa fa-desktop",
       "name": "Vizuelizacija projekta na računaru",
-      "text": "Naša usluga za vizualizaciju projekta na Windows platformi omogućava vam da istražite vaš budući prostor putem računara. Prednost ovog pristupa je što možemo da vam pošaljemo export projekta, omogućavajući vam da delite i pregledate svoj projekat sa drugima na jednostavan način."
+      "text": "Naša usluga za vizualizaciju projekta na Windows platformi omogućava vam da istražite vaš budući prostor putem računara. Prednost ovog pristupa je što možemo da vam pošaljemo export projekta, omogućavajući vam da delite i pregledate svoj projekat sa drugima na jednostavan način.",
+      "Why": ["Inovativni pristupi", "Korišćenje savremenih tehnologija"],
+      "Why2": ["Inovativni pristupi", "Korišćenje savremenih tehnologija"]
     }
   ],
   "Testimonials": [
@@ -81,17 +85,17 @@
   },
   "Features": [
     {
-      "icon": "fa fa-couch",
-      "title": "Budite jedinstveni",
+      "icon": "fa fa-check",
+      "title": "Istaknite se",
       "text": "Nismo konkurencija vašem birou, tu smo da dopunimo nedostatke tradicionalne vizualizacije. Uvodimo vas u trodimenzionalni svet gde se nalazite unutar samog projekta. Istaknite se u svom domenu i budite u toku sa tehnološkim inovacijama. Napravite korak u budućnost zajedno sa nama."
     },
     {
-      "icon": "fa fa-clock",
+      "icon": "fa fa-check",
       "title": "Kvalitet bez odstupanja",
       "text": "Naš zadatak je da vam pružamo uslugu vrhunskog kvaliteta bez kompromisa. Prilikom izrade vršimo korekciju svih imprerfekcija na modelu koji dobijemo od vas i omogućavamo vam vizuelizaciju projekta na željeni način. Obraćamo pažnju na najmanje detalje i pružamo jedinstveno iskustvo svakog puta."
     },
     {
-      "icon": "fa fa-magic",
+      "icon": "fa fa-check",
       "title": "Savremena tehnologija",
       "text": "Služeći se revolucionarnom VR tehnologijom, pružamo vam najbolju uslugu u skladu sa trenutnim tehnološkim standardima. Budući da je VR industrija u neprekidnom razvoju i ekspanziji, svaki pomak ima direktan uticaj na mogućnosti i kvalitet naše usluge."
     },

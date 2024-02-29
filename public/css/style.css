@@ -328,6 +328,9 @@ header .intro-text {
   line-height: 24px;
   margin: 30px 0;
 }
+.first-section {
+  margin-bottom: 55px;
+}
 /* Services Section */
 #services {
   padding: 100px 0;
@@ -350,11 +353,6 @@ header .intro-text {
   margin-left: -30px;
   left: 50%;
 }
-#services .kontejner {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
 #services i.fa {
   font-size: 42px;
   width: 120px;
@@ -376,6 +374,23 @@ header .intro-text {
 #services .service-desc {
   margin-bottom: 40px;
 }
+
+#services li {
+  margin-bottom: 6px;
+  margin-left: 6px;
+  list-style: none;
+  padding: 0;
+  color: #131313;
+}
+#services li:before {
+  content: "\f00c";
+  font-family: "FontAwesome";
+  color: #5ca9fb;
+  font-size: 11px;
+  font-weight: 300;
+  padding-right: 8px;
+}
+
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
