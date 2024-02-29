@@ -333,6 +333,8 @@ header .intro-text {
 }
 /* Services Section */
 #services {
+  display: flex;
+  flex-direction: row;
   padding: 100px 0;
   background: linear-gradient(to right, #f6f6f6 0%, #f6f6f6 100%);
   color: #f6f6f6;
