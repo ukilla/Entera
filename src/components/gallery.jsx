@@ -1,5 +1,6 @@
 import { Image } from "./image";
 import React from "react";
+import NewGallery from "./newgallery";
 
 export const Gallery = (props) => {
   return (
@@ -10,7 +11,8 @@ export const Gallery = (props) => {
         </div>
         <div className="row">
           <div className="portfolio-items">
-            {props.data
+            <NewGallery/>
+            {/*props.data
               ? props.data.map((d, i) => (
                   <div
                     key={`${d.title}-${i}`}
@@ -23,7 +25,7 @@ export const Gallery = (props) => {
                     />
                   </div>
                 ))
-              : "Loading..."}
+              : "Loading..."*/}
           </div>
         </div>
       </div>
