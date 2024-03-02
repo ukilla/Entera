@@ -4,9 +4,12 @@
     "paragraph": "Entera, korak u budućnost"
   },
   "About": {
-    "paragraph": "Naša kompanija teži revolucioniranju vizualizacije arhitektonskih projekata kroz visoki nivo detalja i inovativne pristupe. Posvećeni smo stvaranju autentičnih iskustava koja transformišu način na koji se projektuju i doživljavaju arhitektonska dela.",
-    "Why": ["Inovativni pristupi", "Korišćenje savremenih tehnologija"],
-    "Why2": ["Pažnja na detalje", "Vizuelizacija visokog kvaliteta"]
+    "paragraph1": "Omogućili smo ne samo posmatranje već i interaktivno istraživanje finalne verzije vašeg projekta. Sada možete da prošetate prostorom i doživite dimenzije, proprcije i osvetljenje na način koji je do sada bio nezamisliv. Pružamo Vam imerzivno iskustvo u kome ćete imati potpunu slobodu kretanja, kao i mogućnost interakcije u vidu promene materijala, elemenata, rasvete i atmosferskih prilika u virtuelnom okruženju. Jedna od glavnih prednosti je to što ćete doživeti enterijer kao da zaista boravite u njemu i imaćete jasnu sliku kako će vaš idejni prostor izgledati.",
+    "Why": ["Osećaj realnog prisustva", "Bolje razumevanje prostora i proporcija"],
+    "Why2": ["Interakcija sa projektom", "Nesmetano kretanje"],
+    "Why3": ["Bolji kvalitet slike i oštrina", "Nesmetano kretanje"],
+    "Why4": ["Interakcija sa projektom", "Samostalan pristup projektu kad god"],
+    "paragraph2":"Upoznajte se sami sa projektom kao nikada do sada putem naše desktop vizualizacije. Istražite svaki detalj vašeg budućeg prostora sa samo nekoliko klika mišem. Korisnik je aktivni učesnim i može se nesmetano kretati kroz prostorije projekta bez ikakve vizuelne distorzije i iskrivljenja perspektive. Ovo iskustvo možete doživeti iz komfora vašeg radnog stola ili gde god imate pristup računaru."
   },
   "Gallery": [
     {

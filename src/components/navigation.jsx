@@ -1,5 +1,5 @@
 import React from "react";
-import mainLogo from "../entera-header-logo.png"
+import mainLogo from "../entera-header-logo.png";
 
 export const Navigation = (props) => {
   return (
@@ -19,7 +19,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-          <img className="" src={mainLogo} alt="Header lo" />
+            <img className="" src={mainLogo} alt="Header lo" />
           </a>{" "}
         </div>
 
@@ -38,11 +38,11 @@ export const Navigation = (props) => {
                 Usluge
               </a>
             </li>
-            <li>
+            {/*<li>
               <a href="#services" className="page-scroll">
                 Prednosti
               </a>
-            </li>
+              </li>*/}
             <li>
               <a href="#portfolio" className="page-scroll">
                 Projekti

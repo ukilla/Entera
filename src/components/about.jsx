@@ -13,7 +13,28 @@ export const About = (props) => {
             <div className="col-xs-12 col-md-6">
               <div className="about-text">
                 <h2>Virtuelne ture</h2>
-                <p>{props.data ? props.data.paragraph : "loading..."}</p>
+                <p>{props.data ? props.data.paragraph1 : "loading..."}</p>
+                <h3>Prednosti ove usluge?</h3>
+                <div className="list-style">
+                <div className="col-lg-6 col-sm-6 col-xs-12">
+                  <ul>
+                    {props.data
+                      ? props.data.Why.map((d, i) => (
+                          <li key={`${d}-${i}`}>{d}</li>
+                        ))
+                      : "loading"}
+                  </ul>
+                </div>
+                <div className="col-lg-6 col-sm-6 col-xs-12">
+                  <ul>
+                    {props.data
+                      ? props.data.Why2.map((d, i) => (
+                          <li key={`${d}-${i}`}> {d}</li>
+                        ))
+                      : "loading"}
+                  </ul>
+                </div>
+              </div>
               </div>
             </div>
           </div>
@@ -24,7 +45,28 @@ export const About = (props) => {
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
               <h2>Desktop vizualizacije</h2>
-              <p>{props.data ? props.data.paragraph : "loading..."}</p>
+              <p>{props.data ? props.data.paragraph2 : "loading..."}</p>
+              <h3>Prednosti ove usluge?</h3>
+              <div className="list-style">
+                <div className="col-lg-6 col-sm-6 col-xs-12">
+                  <ul>
+                    {props.data
+                      ? props.data.Why3.map((d, i) => (
+                          <li key={`${d}-${i}`}>{d}</li>
+                        ))
+                      : "loading"}
+                  </ul>
+                </div>
+                <div className="col-lg-6 col-sm-6 col-xs-12">
+                  <ul>
+                    {props.data
+                      ? props.data.Why4.map((d, i) => (
+                          <li key={`${d}-${i}`}> {d}</li>
+                        ))
+                      : "loading"}
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
           <div className="other-section col-xs-12 col-md-6">
