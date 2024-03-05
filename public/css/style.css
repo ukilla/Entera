@@ -141,7 +141,7 @@ hr {
   background-color: #608dfd;
 }
 .section-title {
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 .section-title h2 {
   position: relative;
@@ -265,10 +265,11 @@ header .intro-text {
 }
 /* Features Section */
 #features {
-  padding-top: 100px;
+  padding-top: 125px;
   padding-bottom: 25px;
   background: #f6f6f6;
 }
+
 #features i.fa {
   font-size: 38px;
   margin-bottom: 20px;
@@ -281,6 +282,7 @@ header .intro-text {
   background: linear-gradient(to right, #1b6c87 0%, #1b6c87 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
+
 /* About Section */
 #about {
   padding: 50px 0;
