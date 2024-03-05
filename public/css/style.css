@@ -695,3 +695,18 @@ label {
   max-width: 100%;
   height: auto;
 }
+
+@keyframes breathing {
+  0% {
+    color: #1b6c87; /* Start color */
+    font-weight: bold;
+  }
+  100% {
+    color: #072028; /* Middle color */
+    font-weight: bold;
+  }
+}
+
+.pulse {
+  animation: breathing 1s infinite alternate; /* Adjust timing and animation behavior as needed */
+}
