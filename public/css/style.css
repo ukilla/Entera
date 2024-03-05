@@ -265,7 +265,7 @@ header .intro-text {
 }
 /* Features Section */
 #features {
-  padding-top: 25px;
+  padding-top: 100px;
   padding-bottom: 25px;
   background: #f6f6f6;
 }
@@ -688,4 +688,10 @@ label {
   100% {
     transform: scale(1.2);
   }
+}
+
+.video-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
