@@ -1,6 +1,6 @@
 body,
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #777;
@@ -11,7 +11,7 @@ html {
 h2,
 h3,
 h4 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 h2 {
   text-transform: uppercase;
@@ -88,7 +88,7 @@ hr {
   text-transform: uppercase;*/
 }
 #menu.navbar-default .navbar-nav > li > a {
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   color: #ffff;
   font-size: 15px;
@@ -163,7 +163,7 @@ hr {
   font-size: 18px;
 }
 .btn-custom {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   color: #fff;
   background-color: #B7D2E6;
@@ -234,7 +234,7 @@ a:focus,
   z-index: 1;
 }
 .intro h1 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #fff;
   font-size: 32px;
   font-weight: 700;
@@ -555,7 +555,7 @@ header .intro-text {
 label {
   font-size: 12px;
   font-weight: 400;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   float: left;
 }
 #contact .form-control {
