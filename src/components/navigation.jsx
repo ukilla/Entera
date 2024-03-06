@@ -1,11 +1,25 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import mainLogo from "../entera-header-logo.png";
 
 export const Navigation = (props) => {
+
+  const [navBg, setNavBg] = useState(false);
+ 
+ 
+   useEffect(() => {
+     window.addEventListener('scroll',(event) => { window.scrollY >= 200 ? setNavBg(true) : setNavBg(false);
+      console.log(window.scrollY)});
+     
+   }, [navBg])
+
   return (
-    <nav id="menu" className="navbar navbar-default navbar-fixed-top">
+    <nav
+      id="menu"
+      className={`navbar ${navBg ? "nav-bg-scrolled" : ""} navbar-default navbar-fixed-top`}
+    >
+      <div >
       <div className="container">
-        <div className="navbar-header">
+        <div className="navbar-header" >
           <button
             type="button"
             className="navbar-toggle collapsed"
@@ -65,6 +79,7 @@ export const Navigation = (props) => {
             </li>
           </ul>
         </div>
+      </div>
       </div>
     </nav>
   );

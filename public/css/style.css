@@ -76,9 +76,9 @@ hr {
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background-color: #fff;
+  background-color: transparent;
   border-color: rgba(231, 231, 231, 0);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.15);
 }
 #menu a.navbar-brand {
   /*font-family: "Raleway", sans-serif;
@@ -90,7 +90,7 @@ hr {
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: #555;
+  color: #ffff;
   font-size: 15px;
   font-weight: 400;
   padding: 8px 2px;
@@ -152,7 +152,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #1b6c87 0%, #1b6c87 100%);
+  background: linear-gradient(to right, #B4D4FF 0%, #B4D4FF 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -166,7 +166,7 @@ hr {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  background-color: #1b6c87;
+  background-color: #B7D2E6;
   /*background-image: linear-gradient(to right, #1b6c87 0%, #072028 100%);*/
   padding: 14px 34px;
   letter-spacing: 1px;
@@ -279,7 +279,7 @@ header .intro-text {
   height: 100px;
   padding: 30px 0;
   border-radius: 50%;
-  background: linear-gradient(to right, #1b6c87 0%, #1b6c87 100%);
+  background: linear-gradient(to right, #B4D4FF 0%, #B4D4FF 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 
@@ -299,7 +299,7 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #1b6c87 0%, #1b6c87 100%);
+  background: linear-gradient(to right, #B4D4FF 0%, #B4D4FF 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -350,7 +350,7 @@ header .intro-text {
 #services .section-title h2::after {
   position: absolute;
   content: "";
-  background: #1b6c87;
+  background: #B4D4FF;
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -505,7 +505,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #1b6c87 0%, #1b6c87 100%);
+  background: linear-gradient(to right, #B7D2E6 0%, #B7D2E6 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -706,11 +706,11 @@ label {
 
 @keyframes breathing {
   0% {
-    color: #1b6c87; /* Start color */
+    color: #B4D4FF; /* Start color */
     font-weight: bold;
   }
   100% {
-    color: #072028; /* Middle color */
+    color: #B4D4FF; /* Middle color */
     font-weight: bold;
   }
 }
@@ -725,4 +725,9 @@ label {
   align-items: center;
   height: 100vh; 
   background-color: #B4D4FF; 
+}
+
+.nav-bg-scrolled{
+  background-color: #000000 !important;
+  color: #000000 !important;
 }
