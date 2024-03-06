@@ -7,7 +7,7 @@ export const Navigation = (props) => {
  
  
    useEffect(() => {
-     window.addEventListener('scroll',(event) => { window.scrollY >= 200 ? setNavBg(true) : setNavBg(false);
+     window.addEventListener('scroll',(event) => { window.scrollY >= 300 ? setNavBg(true) : setNavBg(false);
       console.log(window.scrollY)});
      
    }, [navBg])
