@@ -679,7 +679,7 @@ label {
   }
 }
 
-.breathing-image {
+.loading-icon {
   animation: breathe 0.5s infinite alternate; /* Adjust the duration and other animation properties as needed */
 }
 
@@ -711,4 +711,12 @@ label {
 
 .pulse {
   animation: breathing 1s infinite alternate; /* Adjust timing and animation behavior as needed */
+}
+
+.loading-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  background-color: #B4D4FF; 
 }
