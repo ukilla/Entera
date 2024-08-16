@@ -8,10 +8,10 @@ export const About = (props) => {
           <div className="row">
             <div className="col-xs-12 col-md-6">
               <div className="about-text">
-                <h2>Izrada web sajtova i animacije</h2>
+                <h2>Izrada web sajtova i animacija</h2>
                 <p>{props.data ? props.data.paragraph3 : "loading..."}</p>
                 <a
-                  href="https://entera-interactive.netlify.app"
+                  href="https://entera-real-estate.netlify.app"
                   className="btn btn-custom btn-lg"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -121,7 +121,7 @@ export const About = (props) => {
           </div>
           <div className="other-section col-xs-12 col-md-6">
             {" "}
-            <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
+            <img src="img/desktop-vis.jpeg" className="img-responsive" alt="" />{" "}
           </div>
         </div>
       </div>

@@ -51,9 +51,37 @@ const images = [
         "thumbnail": "img/portfolio/12-small.jpg"
       },
       {
-        "original": "img/portfolio/13-large.jpg",
-        "thumbnail": "img/portfolio/13-small.jpg"
-      }
+        "original": "img/portfolio/1.jpeg",
+        "thumbnail": "img/portfolio/1Small.jpeg"
+      },
+      {
+        "original": "img/portfolio/2.jpeg",
+        "thumbnail": "img/portfolio/2Small.jpeg"
+      },
+      {
+        "original": "img/portfolio/3.jpeg",
+        "thumbnail": "img/portfolio/3Small.jpeg"
+      },
+      {
+        "original": "img/portfolio/13.jpeg",
+        "thumbnail": "img/portfolio/13Small.jpeg"
+      },
+      {
+        "original": "img/portfolio/14.jpeg",
+        "thumbnail": "img/portfolio/14Small.jpeg"
+      },
+      {
+        "original": "img/portfolio/15.jpeg",
+        "thumbnail": "img/portfolio/15Small.jpeg"
+      },
+      {
+        "original": "img/portfolio/16.jpeg",
+        "thumbnail": "img/portfolio/16Small.jpeg"
+      },
+      {
+        "original": "img/portfolio/17.jpeg",
+        "thumbnail": "img/portfolio/17Small.jpeg"
+      },
   ];
 
 const NewGallery = () => {
